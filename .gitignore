@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+
+# Local training outputs / datasets
+experiments/
+data/
