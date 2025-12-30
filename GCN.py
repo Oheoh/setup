@@ -200,8 +200,8 @@ class GraphDataset_position(torch_geometric.data.Dataset):
         BG = bgData
         varNames = solData["var_names"]
 
-        sols = solData["sols"][:1]
-        objs = solData["objs"][:1]
+        sols = solData["sols"][:50]
+        objs = solData["objs"][:50]
 
         sols = np.round(sols, 0)
         return BG, sols, objs, varNames

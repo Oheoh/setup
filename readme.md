@@ -38,6 +38,25 @@
             └── logs/
                 └── <parent>_<stem>_ptop-XX.X.log
 ```
+## Requirements
+
+- OS: Linux
+- python==3.11.13
+- pytorch==2.5.1 (CUDA 12.1)
+- torch-geometric==2.6.1
+- pyscipopt==5.5.0
+- gurobipy==12.0.3 (requires Gurobi + license)
+- numpy==1.26.4
+- matplotlib==3.8.0
+
+## Installation
+
+Create a new environment with Conda:
+
+```bash
+conda env create -f environment.yml
+conda activate test
+```
 
 
 ## 使用命令
