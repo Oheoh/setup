@@ -89,7 +89,6 @@ def run_two_phase(
     m = gp.read(file_path)
     m.Params.LogFile = log_path
 
-    m.Params.Heuristics = 1
     m.Params.Threads = threads
     m.Params.MIPFocus = 1
 
@@ -196,7 +195,6 @@ def run_one_phase(
 
     m = gp.read(file_path)
     m.Params.LogFile = log_path
-    m.Params.Heuristics = 1
     m.Params.Threads = threads
     m.Params.MIPFocus = 1
     m.Params.TimeLimit = time_limit
